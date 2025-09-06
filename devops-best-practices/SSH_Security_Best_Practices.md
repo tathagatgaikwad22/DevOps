@@ -144,9 +144,3 @@ To secure your infrastructure:
 This guide is part of my DevOps Learning Series.
 PRs and suggestions are welcome! 🚀
 
-📚 References
-OpenSSH Security Best Practices
-
-Linux SSH Hardening Guide
-
-Fail2Ban Documentation
