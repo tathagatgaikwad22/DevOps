@@ -20,7 +20,7 @@ This guide explains **theory, best practices, tips, and tricks** for mastering t
 ps aux             # List all processes with detailed info
 ps -eo pid,ppid,stat,cmd   # Custom view with process states
 ps -C nginx -o pid,cmd,%mem,%cpu   # Filter by process name
-
+```
 📖 Key Options:
 a → All processes
 
@@ -145,6 +145,7 @@ top = Real-time monitoring.
 htop = Interactive and user-friendly monitoring.
 
 Together, they form the first line of defense for Linux system health and performance.
+
 
 ## 📌 Resources  
 
