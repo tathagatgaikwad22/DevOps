@@ -41,6 +41,7 @@ ps -eo pid,ppid,cmd,%mem --sort=-%mem | head
 🔎 2. top (Real-Time Monitoring)
 top provides a dynamic, continuously refreshing view of processes.
 
+
 📌 Default Columns:
 PID → Process ID
 
@@ -53,6 +54,7 @@ USER → Owner
 TIME+ → CPU time used
 
 COMMAND → Executable name
+
 
 📌 Useful Shortcuts:
 M → Sort by memory
@@ -81,12 +83,14 @@ F9 → Kill processes easily
 
 F2 → Customize interface (columns, colors, meters)
 
+
 💡 Tips & Tricks:
 Quickly identify Zombie (Z) or Uninterruptible Sleep (D) processes with color-coded output.
 
 Scroll through long process lists more easily than top.
 
 Filter processes interactively by typing their name.
+
 
 ✅ Best Practices for Monitoring
 Know the Baseline
@@ -113,6 +117,7 @@ Investigate Before Killing
 
 High CPU/memory often = application bug or misconfiguration. Killing is a band-aid, not a fix.
 
+
 ⚡ Pro Commands
 Watch a specific process continuously:
 watch -n 1 "ps -C nginx -o pid,cmd,%mem,%cpu"
@@ -136,6 +141,7 @@ Investigate → Bug in code (while(true) loop).
 Fix root cause instead of just killing processes.
 
 👉 Lesson: Monitoring tools detect the symptoms, but engineers must trace the cause.
+
 
 💡 Key Takeaways
 ps = Snapshot monitoring (good for scripting/logging).
