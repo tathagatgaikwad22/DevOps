@@ -95,12 +95,6 @@ Grafana Loki → Scalable log storage & querying
 
 But remember: grep + awk are always available, fast, and powerful.
 
-📌 Resources
-man grep
-
-man awk
-
-GNU Awk Guide
 
 🚀 Final Thoughts
 With grep and awk, you can:
