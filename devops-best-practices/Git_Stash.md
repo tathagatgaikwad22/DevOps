@@ -1,7 +1,7 @@
 # 💎 Git Stash — The Hidden Gem Explained
 
 > **Date:** October 04, 2025  
-> **Author:** Anand Gaikwad  
+> **Author:** Tathagat Gaikwad  
 
 ---
 
