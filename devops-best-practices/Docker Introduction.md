@@ -28,29 +28,8 @@ It helps developers and DevOps engineers ensure consistency across environments.
 ☁️ Cloud-native friendly
 
 
-
 ---
 
-🧩 Docker Architecture
-
-+-----------------------------+
-|        Docker CLI           |
-+-------------+---------------+
-              |
-              v
-+-----------------------------+
-|        Docker Engine        |
-|  - Docker Daemon            |
-|  - REST API                 |
-+-------------+---------------+
-              |
-              v
-+-----------------------------+
-| Images | Containers | Volumes |
-+------------------------------+
-
-
----
 
 🧱 Docker Components
 
@@ -83,25 +62,25 @@ Used for container communication.
 
 📄 Sample Dockerfile
 
-# 1. Use base image
+1. Use base image
 FROM node:18
 
-# 2. Set working directory
+2. Set working directory
 WORKDIR /app
 
-# 3. Copy package files
+3. Copy package files
 COPY package*.json ./
 
-# 4. Install dependencies
+4. Install dependencies
 RUN npm install
 
-# 5. Copy everything else
+5. Copy everything else
 COPY . .
 
-# 6. Expose port
+6. Expose port
 EXPOSE 3000
 
-# 7. Start the application
+7. Start the application
 CMD ["npm", "start"]
 
 
