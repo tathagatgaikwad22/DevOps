@@ -61,25 +61,25 @@ CMD ["npm", "start"]
 
 🧱 Your First Dockerfile (Node.js Example)
 
-# 1. Use the official Node.js image
+1. Use the official Node.js image
 FROM node:18-alpine
 
-# 2. Set working directory
+2. Set working directory
 WORKDIR /app
 
-# 3. Copy dependency files
+3. Copy dependency files
 COPY package*.json ./
 
-# 4. Install dependencies
+4. Install dependencies
 RUN npm install
 
-# 5. Copy rest of the application code
+5. Copy rest of the application code
 COPY . .
 
-# 6. Expose application port
+6. Expose application port
 EXPOSE 3000
 
-# 7. Command to run the app
+7. Command to run the app
 CMD ["npm", "start"]
 
 
@@ -125,8 +125,5 @@ Prefer multi-stage builds for production images
 📌 Conclusion
 
 Writing your first Dockerfile is the foundation of mastering Docker and containerization. Once you understand the workflow, you can easily containerize apps, build CI/CD pipelines, deploy to Kubernetes, and work with cloud-native architectures.
-
-Want a CI/CD pipeline, README template, or Dockerfile for Python/Java/Django?
-Just ask! 🚀
 
 ---
