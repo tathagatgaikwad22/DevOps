@@ -1,7 +1,5 @@
 # 🔐 AWS IAM Best Practices (That Actually Prevent Breaches)
 
-![AWS IAM Best Practices](./AWS_IAM_Best_Practices.png)
-
 Most cloud security incidents aren’t advanced attacks.  
 They’re caused by **lazy IAM configurations**.
 
